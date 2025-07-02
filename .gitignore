@@ -1,0 +1,9 @@
+# Keep useful ignores only
+wp-content/uploads/
+.DS_Store
+*.log
+*.sql
+*.zip
+node_modules/
+.env
+.vscode/
