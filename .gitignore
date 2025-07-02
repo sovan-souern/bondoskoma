@@ -1,3 +1,13 @@
+# Ignore everything by default
+*
+
+# Allow only these specific files and folders
+!.gitignore
+!README.md
+!wp-content/
+!wp-content/**/*
+wp-content/uploads/
+
 # Ignore WordPress core files
 wp-admin/
 wp-includes/
@@ -18,9 +28,6 @@ wp-signup.php
 wp-trackback.php
 xmlrpc.php
 
-# Ignore uploads (media)
-wp-content/uploads/
-
 # Ignore OS and IDE files
 .DS_Store
 *.log
@@ -29,3 +36,7 @@ wp-content/uploads/
 .vscode/
 .env
 node_modules/
+
+front/
+wep-config.php
+
