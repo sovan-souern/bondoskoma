@@ -1,35 +1,39 @@
-# WordPress core (optional, if using as dependency)
+# Ignore WordPress core (optional - see note below)
 wp-admin/
 wp-includes/
 
-# Configuration files
+# Ignore sensitive config files
 wp-config.php
 wp-config-sample.php
+.env
 
-# Ignore database exports
-*.sql
-*.sql.gz
-
-# Ignore log files and OS-specific files
+# Ignore system/IDE files
 *.log
-*.DS_Store
+*.sql
+*.tar.gz
+*.zip
+.DS_Store
 Thumbs.db
-
-# Ignore IDE files
-.vscode/
 .idea/
+.vscode/
 
-# Ignore node/npm files (if using front-end tools)
+# Ignore Composer / Node / Build tools
 node_modules/
-npm-debug.log
-yarn-error.log
+vendor/
+package-lock.json
+yarn.lock
 
-# Ignore uploads and cache (optional)
+# Ignore uploads and temp files
 wp-content/uploads/
 wp-content/cache/
 wp-content/backups/
 wp-content/upgrade/
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+wp-content/debug.log
 
-# Keep your theme or plugin
-!wp-content/themes/your-theme-name/
-!wp-content/plugins/your-plugin-name/
+# Keep custom themes and plugins (update to your actual names)
+!wp-content/themes/
+!wp-content/themes/your-custom-theme/
+!wp-content/plugins/
+!wp-content/plugins/your-custom-plugin/
