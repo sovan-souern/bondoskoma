@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/*
+Theme Name: NGO Social Services
+Author: TheMagnifico52
+Theme URI: https://www.themagnifico.net/products/free-social-services-wordpress-theme
+Author URI: https://www.themagnifico.net/
+Description: NGO Social Services is an amazing theme to create websites such as non-profit, charity, NGO agency, social services campaign, social welfare, volunteer organization, activism, foster home, organize welfare activities, fundraising events, old age home, fight against hunger, blood donation camps, etc. It is a cool theme having elegant and sophisticated design. It is SEO-friendly so your website will rank easily on popular search engines like Google. It offers many options for customization and personalization and is very user-friendly. It is translation-ready theme and has support for RTL layout. The responsive layout makes it fit perfectly on any device screen size and therefore is mobile-friendly too. You are allowed to add shortcodes if you want to add some additional functionality to your website. It has faster page load times because of the clean and optimized codes. It is compatible with most used WordPress plugins. The theme is executed on bootstrap framework. With the social media option you can show your popularity and give credibility to your work by linking all social media page to your site. The testimonial section let’s your visitors give comments on your work. The theme supports Elementor and all sections are made from it. Choose this stunning theme and start creating your website today.
+Version: 0.5.0
+Tested up to: 6.8
+Requires PHP: 7.2
+Requires at least: 5.0
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: charity-zone
+Text Domain: ngo-social-services
+Tags: custom-logo, one-column, two-columns, wide-blocks, custom-background, custom-colors, custom-header, custom-menu, block-styles, sticky-post, footer-widgets, editor-style, featured-images, full-width-template, threaded-comments, theme-options, rtl-language-support, left-sidebar, right-sidebar, grid-layout, blog, photography, portfolio
+
+NGO Social Services WordPress Theme has been created by TheMagnifico52(themagnifico.net), 2021.
+NGO Social Services WordPress Theme is released under the terms of GNU GPL
+*/
+
+.navbar-brand,
+.sticky .entry-title::before,
+.donate-btn a,
+.main-navigation .menu > li > a:hover,
+.main-navigation .sub-menu,
+#button,
+.sidebar input[type="submit"],
+.comment-respond input#submit,
+.post-navigation .nav-previous a:hover,
+.post-navigation .nav-next a:hover,
+.posts-navigation .nav-previous a:hover,
+.posts-navigation .nav-next a:hover,
+.woocommerce .woocommerce-ordering select,
+.woocommerce ul.products li.product .onsale,
+.woocommerce span.onsale, .pro-button a,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.wp-block-button__link,
+.serv-box:hover,
+.woocommerce-account .woocommerce-MyAccount-navigation ul li,
+.btn-primary,
+.toggle-nav.mobile-menu button,
+.sidebar button[type="submit"],
+.sidebar .tagcloud a:hover, .load hr, .navigation.pagination .nav-links a.current, .navigation.pagination .nav-links a:hover, .navigation.pagination .nav-links span.current, .navigation.pagination .nav-links span:hover {
+    background: #03b664;
+}
+a,.sidebar a:hover,
+#colophon a:hover,
+#colophon a:focus,
+p.price,
+.woocommerce ul.products li.product .price,
+.woocommerce div.product p.price,
+.woocommerce div.product span.price,
+.woocommerce-message::before,
+.woocommerce-info::before,
+.donate-btn a:hover,
+.causes-inner-box li a{
+    color: #03b664;
+}
+.wp-block-quote,
+.wp-block-quote:not(.is-large):not(.is-style-large),
+.wp-block-pullquote,.btn-primary, .navigation.pagination .nav-links a.current, .navigation.pagination .nav-links a:hover, .navigation.pagination .nav-links span.current, .navigation.pagination .nav-links span:hover{
+    border-color: #03b664 !important;
+}
+a, h1, h2, h3, h4, h5, h6, .main-navigation .menu > li > a{
+    color: #1e2736;
+}
+.article-box a:hover{
+    color: #1e2736 !important;
+}
+#site-navigation .menu ul li a:hover {
+    color: #03b664;
+}
+.main-navigation .menu > li > a:hover {
+    color: #ffffff;
+}
+.main-navigation ul.sub-menu > li > a:hover, .main-navigation ul.sub-menu > li > a:focus {
+    background: #1e2736;
+}
+.sidebar h5,
+#button:active,
+#button:hover,
+.donate-btn a:hover,
+.socialmedia,
+#colophon,
+.main-navigation .sub-menu > li > a:hover,
+.main-navigation .sub-menu > li > a:focus{
+    background: #1e2736;
+}
+.footer-column {
+    border-bottom: 1px solid #fff;
+}
+.socialmedia i:hover, .socialmedia p a:hover:hover, .slider-inner-box a h2:hover, .causes-box h4 a:hover, time.entry-date.published:hover, span.author.vcard a:hover, span.comments-link a:hover, span.edit-link a:hover{
+    color: #03b664 !important;
+}
+#top-slider .slider-box img {
+    opacity: 0.5;
+}
+.slider-inner-box {
+    right: 50%;
+    left: 15%;
+}
+.slider-inner-box a h2 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 45px;
+}
+#causes-sec h3 {
+    font-size: 35px;
+    border-left: solid 4px #03b664;
+    padding-left: 15px;
+}
+.causes-box {
+    text-align: center;
+    border: solid 1px #eee;
+}
+.causes-inner-box {
+    padding: 15px;
+}
+.causes-inner-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.causes-inner-box li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.causes-inner-box h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 6px;
+  animation: loading 2s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+.loading {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
+}
+@keyframes loading {
+  0%,
+  100% {
+    transform: translatey(-2.5rem);
+    background-color: #fff;
+  }
+  50% {
+    transform: translatey(2.5rem);
+    background-color: #03b664;
+  }
+}
+a.added_to_cart.wc-forward{
+    background: #03b664;
+}
+.article-box h3.entry-title a, span.cat-links a, span.tags-links a{
+    color: #03b664;
+}
+@media screen and (min-width: 320px) and (max-width: 720px){
+    .sidenav{
+        background: #1e2736;
+    }
+    .main-navigation .sub-menu{
+        background: transparent;
+    }
+    .toggle-nav i,.main-navigation .menu > li > a {
+        color: #fff;
+    }
+    .slider-inner-box {
+        right: 15%;
+        left: 15%;
+    }
+    .slider-inner-box a h2 {
+        font-size: 30px;
+    }
+    .footer-menu-left {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .sidenav{
+        background: #1e2736;
+    }
+    .toggle-nav.mobile-menu {
+        text-align: right;
+    }
+    .main-navigation .sub-menu{
+        background: transparent;
+    }
+    .toggle-nav i,.main-navigation .menu > li > a {
+        color: #fff;
+    }
+    .slider-inner-box {
+        right: 15%;
+        left: 15%;
+    }
+    .slider-inner-box a h2 {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .sidenav .closebtn {
+      margin-right:20px;
+      right:0px;
+    }
+    .toggle-nav i, .sidenav .closebtn{
+        background: #03b664;
+    }
+    .menu > li > a:hover, #site-navigation .menu ul li a:hover {
+        color: #03b664 !important;
+        background: transparent !important;
+    }
+}
+
+.serv-box img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image, .serv-box img {
+    object-fit: cover;
+}
+#serve-sec{
+    margin-top: -4%;
+}
+.causes-box  img{
+    height: 300px;
+    object-fit: cover;
+}
